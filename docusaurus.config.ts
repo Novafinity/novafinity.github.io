@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Novafinity',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Unleash the power of modern applications and web apps with a vast array of cutting-edge tools at your fingertips.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -54,10 +54,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Novafinity',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Novafinity Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -71,17 +71,6 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Novafinity LLC.`,
     },
     prism: {
