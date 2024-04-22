@@ -24,6 +24,14 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  {
+    title: 'Powerful',
+    description: (
+      <>
+        Powerful apps that support Themes and Plugins
+      </>
+    ),
+  },
 ];
 
 function Feature({title, description}: FeatureItem) {
